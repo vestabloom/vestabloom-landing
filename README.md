@@ -24,7 +24,7 @@ The primary goal is to **capture email leads** from the target audience by offer
 | Deployment Platform | URL |
 | :--- | :--- |
 | **Cloudflare Pages** | [https://vestabloom-landing.pages.dev/](https://vestabloom-landing.pages.dev/) |
-| **Short URL** | [https://tinyurl.com/vestabloomLP](https://tinyurl.com/vestabloomLP) (or your chosen alias) |
+| **Short URL** | [https://tinyurl.com/vestabloom](https://tinyurl.com/vestabloom) (or your chosen alias) |
 
 ---
 
