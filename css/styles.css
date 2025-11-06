@@ -1,0 +1,77 @@
+:root {
+  --cream: #f3f0eb;
+  --charcoal: #2d2d2d;
+  --copper: #c08448;
+  --forest: #43523a;
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+.text-forest {
+  color: var(--forest);
+}
+.text-charcoal {
+  color: var(--charcoal);
+}
+.text-copper {
+  color: var(--copper);
+}
+
+.btn-copper {
+  background: var(--copper);
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn-copper:hover {
+  background: #b0743b;
+  transform: translateY(-2px);
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f6f3 100%);
+}
+
+.benefit-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+.benefit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+  border-color: var(--copper);
+  box-shadow: 0 0 0 0.25rem rgba(192, 132, 72, 0.25);
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+.logo-custom {
+  width: 350px;
+  height: 350px;
+  object-fit: contain; /* Mantiene proporciones */
+}
+.image-custom {
+  width: 490px;
+  height: 330px;
+  object-fit: contain; /* Mantiene proporciones */
+}
+.highlight-text {
+  font-weight: bold;
+  color: #b0743b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--charcoal);
+}
+h1,
+h2,
+h5 {
+  font-family: "Playfair Display", serif;
+}
